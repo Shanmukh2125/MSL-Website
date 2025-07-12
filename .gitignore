@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -24,3 +25,19 @@ dist-ssr
 *.sw?
 ".vs/" 
 .vs/
+=======
+# Ignore Visual Studio folders
+.vs/
+*.user
+*.suo
+
+# Ignore build output and temp files
+bin/
+obj/
+*.log
+*.tmp
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
+>>>>>>> a154fd71e8b16f04009bd34dee8618652cdcdaba
